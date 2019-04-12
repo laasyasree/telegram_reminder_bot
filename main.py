@@ -21,8 +21,7 @@ e=['C_LAB','ESSENTIALS','LUNCH','C_PROG','EEE','Hope u will enjoy ur day']
 f=['CHEM','EEE','MATHS','FREE','LUNCH','SAH','FREE','Hope u will enjoy ur day']
 if(day=='Monday'):
 	for i in range(0,len(b)):
-    	test = telegram_bot_sendtext(b[i])
-		
+    		test = telegram_bot_sendtext(b[i])
 if(day=='Tuesday'):
 	for i in range(0,len(c)):
     	    test = telegram_bot_sendtext(c[i])
